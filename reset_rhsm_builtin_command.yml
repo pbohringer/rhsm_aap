@@ -1,6 +1,6 @@
 ---
 - name: Reconfigurar suscripción Red Hat en PROD (sin community.general)
-  hosts: 172.21.210.4
+  hosts: template_rhel_9
   become: true
   vars:
     proxy_hostport: "10.0.14.10:8110"
