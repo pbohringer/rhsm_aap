@@ -1,4 +1,3 @@
-
 ---
 - name: Reconfigurar suscripción Red Hat en PROD
   hosts: all
