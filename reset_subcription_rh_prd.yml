@@ -1,6 +1,6 @@
 ---
 - name: Reconfigurar suscripción Red Hat en PROD
-  hosts: 172.21.200.216
+  hosts: template_rhel_9
   become: true
   vars:
     proxy_url: "10.0.14.10:8110"
